@@ -14,7 +14,7 @@ registering your account in key section get your keys
 
 
 #                       ABOUT CURL
-#cURL Supported Operations
+# cURL Supported Operations
 For handling remote file access, the cURL as an intermediary is used for,
 
 Form submitting
@@ -23,7 +23,7 @@ File upload
 File transfer
 Without cURL, we can use PHP file system functionsallow_url_fopen configuration directive which is not preferable because of security reasons. For example, file_get_contents() returns remote data including some untrusted internet content.
 
-#PHP cURL Delimiters
+# PHP cURL Delimiters
 In a PHP program, the cURL portion should be enclosed within this two pair of functions.
 
 $ch = curl_init(URL Syntax);
@@ -31,13 +31,13 @@ $ch = curl_init(URL Syntax);
 curl_close($ch);
 The curl_init() function returns cURL session handle with respect to the given file URL. And then, curl_close() function will be an end delimiter to close cURL session with respect to its handle.
 
-#cURL Options
+# cURL Options
 PHP curl_setopt() function is used to set options. It receives cURL handle, option’s name and value as its parameters.
 
 We can use another cURL function curl_setopt_array() to set an array of multiple options at a push.
 
 curl_setopt ($ch, CURLOPT_HEADER, 1);
-#cURL Option Constants
+# cURL Option Constants
 CURLOPT_FILE – target file to write cURL result.
 CURLOPT_URL – URL from where we need to get data. If this URL is specified with curl_init(), then no need to set this option
 CURLOPT_RETURNTRANSFER – to return the result in string format into a variable instead of printing it to the browser.
@@ -46,7 +46,7 @@ CURLOPT_POST – set to TRUE to perform HTTP POST.
 CURLOPT_USERPWD – to set username/password if required to connect remote server.
 php_curl
 
-#PHP cURL Request
+# PHP cURL Request
 Like PHP, the GET and POST methods are used for sending cURL request where GET is the default. The CURLOPT_POST constant is used for sending POST request. And the parameters CURLOPT_POSTFIELDS is for sending parameter array of the field: value pairs.
 
 cURL Execution
