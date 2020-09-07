@@ -17,10 +17,10 @@ registering your account in key section get your keys
 # cURL Supported Operations
 For handling remote file access, the cURL as an intermediary is used for,
 
-#Form submitting
-#Authentication
-#File upload
-#File transfer
+# Form submitting
+# Authentication
+# File upload
+# File transfer
 Without cURL, we can use PHP file system functionsallow_url_fopen configuration directive which is not preferable because of security reasons. For example, file_get_contents() returns remote data including some untrusted internet content.
 
 # PHP cURL Delimiters
