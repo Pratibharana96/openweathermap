@@ -8,3 +8,6 @@ http://bulk.openweathermap.org/sample/
 api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
 Add city id from the json file and api_key after 
 registering your account in key section get your keys 
+# weather API  demo 
+![alt text](https://github.com/Pratibharana96/openweathermap/blob/master/weatherapi.PNG?raw=true)
+
